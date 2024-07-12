@@ -39,6 +39,16 @@ val ArturoFamily: FontFamily
             style = FontStyle.Normal,
         ),
         Font(
+            resource = Res.font.arturo_regular,
+            weight = FontWeight.W500,
+            style = FontStyle.Normal,
+        ),
+        Font(
+            resource = Res.font.arturo_regular,
+            weight = FontWeight.W600,
+            style = FontStyle.Normal,
+        ),
+        Font(
             resource = Res.font.arturo_bold,
             weight = FontWeight.W700,
             style = FontStyle.Normal,
@@ -122,9 +132,10 @@ val MalibuRingFamily: FontFamily
 val MyCustomTypography: Typography
     @Composable
     get() {
+        val arturo = ArturoFamily
         return Typography(
             displayLarge = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Large,
                 fontSize = TypeScaleTokens.TextSize.DisplayLarge,
                 lineHeight = TypeScaleTokens.LineHeight.DisplayLarge,
@@ -134,7 +145,7 @@ val MyCustomTypography: Typography
                 )
             ),
             displayMedium = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Medium,
                 fontSize = TypeScaleTokens.TextSize.DisplayMedium,
                 lineHeight = TypeScaleTokens.LineHeight.DisplayMedium,
@@ -144,7 +155,7 @@ val MyCustomTypography: Typography
                 )
             ),
             displaySmall = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Regular,
                 fontSize = TypeScaleTokens.TextSize.DisplaySmall,
                 lineHeight = TypeScaleTokens.LineHeight.DisplaySmall,
@@ -157,7 +168,7 @@ val MyCustomTypography: Typography
                 )
             ),
             titleLarge = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Large,
                 fontSize = TypeScaleTokens.TextSize.Title1,
                 lineHeight = TypeScaleTokens.LineHeight.Title1,
@@ -167,7 +178,7 @@ val MyCustomTypography: Typography
                 )
             ),
             titleMedium = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Medium,
                 fontSize = TypeScaleTokens.TextSize.Title2,
                 lineHeight = TypeScaleTokens.LineHeight.Title2,
@@ -177,7 +188,7 @@ val MyCustomTypography: Typography
                 )
             ),
             titleSmall = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Regular,
                 fontSize = TypeScaleTokens.TextSize.Title3,
                 lineHeight = TypeScaleTokens.LineHeight.Title3,
@@ -187,7 +198,7 @@ val MyCustomTypography: Typography
                 )
             ),
             headlineLarge = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Medium,
                 fontSize = TypeScaleTokens.TextSize.HeadlineLarge,
                 lineHeight = TypeScaleTokens.LineHeight.HeadlineLarge,
@@ -197,7 +208,7 @@ val MyCustomTypography: Typography
                 )
             ),
             headlineMedium = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Medium,
                 fontSize = TypeScaleTokens.TextSize.HeadlineMedium,
                 lineHeight = TypeScaleTokens.LineHeight.HeadlineMedium,
@@ -207,7 +218,7 @@ val MyCustomTypography: Typography
                 )
             ),
             headlineSmall = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Medium,
                 fontSize = TypeScaleTokens.TextSize.HeadlineSmall,
                 lineHeight = TypeScaleTokens.LineHeight.HeadlineSmall,
@@ -217,7 +228,7 @@ val MyCustomTypography: Typography
                 )
             ),
             bodyLarge = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Medium,
                 fontSize = TypeScaleTokens.TextSize.BodyLarge,
                 lineHeight = TypeScaleTokens.LineHeight.BodyLarge,
@@ -227,7 +238,7 @@ val MyCustomTypography: Typography
                 )
             ),
             bodyMedium = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Medium,
                 fontSize = TypeScaleTokens.TextSize.BodyMedium,
                 lineHeight = TypeScaleTokens.LineHeight.BodyMedium,
@@ -237,7 +248,7 @@ val MyCustomTypography: Typography
                 )
             ),
             bodySmall = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Light,
                 fontSize = TypeScaleTokens.TextSize.BodySmall,
                 lineHeight = TypeScaleTokens.LineHeight.BodySmall,
@@ -247,7 +258,7 @@ val MyCustomTypography: Typography
                 )
             ),
             labelLarge = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Large,
                 fontSize = TypeScaleTokens.TextSize.LabelLarge,
                 lineHeight = TypeScaleTokens.LineHeight.LabelLarge,
@@ -257,7 +268,7 @@ val MyCustomTypography: Typography
                 )
             ),
             labelMedium = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Medium,
                 fontSize = TypeScaleTokens.TextSize.LabelMedium,
                 lineHeight = TypeScaleTokens.LineHeight.LabelMedium,
@@ -267,7 +278,7 @@ val MyCustomTypography: Typography
                 )
             ),
             labelSmall = TextStyle(
-                fontFamily = ArturoFamily,
+                fontFamily = arturo,
                 fontWeight = TypeScaleTokens.Weight.Light,
                 fontSize = TypeScaleTokens.TextSize.LabelSmall,
                 lineHeight = TypeScaleTokens.LineHeight.LabelSmall,

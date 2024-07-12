@@ -37,12 +37,12 @@ fun App() {
         typography = MyCustomTypography,
     ) {
         Row() {
-            NavigationRail(
-                containerColor = Color.Transparent,
-            ) {
-                TabNavigationRailItemOne()
-                TabNavigationRailItemOne()
-            }
+//            NavigationRail(
+//                containerColor = Color.Transparent,
+//            ) {
+//                TabNavigationRailItemOne()
+//                TabNavigationRailItemOne()
+//            }
             Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
                 Box(
                     modifier = Modifier.fillMaxWidth(),
